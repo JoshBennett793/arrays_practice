@@ -26,3 +26,16 @@ to the console after running booleans.unshift(false), it would print
 [false, true, false, true, true].
 */
 booleans.unshift(false);
+
+// Understanding of index positions
+
+// Index positions in javascript start at 0.
+console.log(strings[0]); // "Coding"
+//The last element in an array can be referenced by -1
+console.log(numbers.at(-1)); // 7
+/* 
+To start counting from 0 is slightly more efficient than counting
+from 1. This is made more evident when evaluating a function or methods
+time complexity, or the steps the computer has to take to run each 
+function or method.
+*/
